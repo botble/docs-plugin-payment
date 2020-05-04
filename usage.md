@@ -5,7 +5,7 @@
 \- Using short code
 
 ```php
-{!! do_shortcode('[payment-form currency="USD" amount="10" name="Our product" return_url="http://your-domain.com"][/payment-form]') !!}
+{!! do_shortcode('[payment-form currency="USD" amount="10" name="Our product" callback_url="http://your-domain.com/payment/callback" return_url="http://your-domain.com"][/payment-form]') !!}
 ```
 
 ### Display payment info

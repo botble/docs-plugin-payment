@@ -8,10 +8,7 @@
 
 This is payment plugin for Botble CMS. It's included PayPal & Stripe payment gateways.
 
-
 Created: `2020-02-08`
-
-Current version: `1.0`
 
 By: [Botble Technologies](https://botble.com)
 
