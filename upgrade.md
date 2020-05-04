@@ -1,9 +1,9 @@
 # Upgrade Guide
 
-- [Basic](#basic)
+- [Upgrade to 1.1](#upgrade-to-1-1)
 
-## Basic
-
-- When you got a new version of Payment plugin from Codecanyon. You just need to do below steps to upgrade it.
-    * Override folder `platform/plugins/payment` with the latest code.
-    * Go to Admin -> Plugins then deactivate plugin `payment` then activate it again.
+<a name="upgrade-to-1-1"></a>
+## Upgrade to version 1.1
+- Override folder `platform/plugins/payment` with the latest code.
+- Update shortcode: Rename `return_url` to `callback_url`.
+- Go to Admin -> Plugins then deactivate plugin `payment` then activate it again.
